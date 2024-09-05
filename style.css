@@ -1,0 +1,49 @@
+body{
+    border-left: 5px lightgray solid;
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+article{
+    border-bottom: 1px lightgray solid;
+}
+article p::first-letter{
+    color: lightgray;
+font-size: 3em;
+font-weight:bold;
+float: left;
+margin-left: 0.1em;
+}
+article a{
+    display:block;
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+}
+h1{
+    color: tomato;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul{list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+
+}
+.navtop a {
+    color: rgb(169, 154, 154);
+}
+.navBottom a{
+    color: tomato;
+}
+header{
+    padding: 1rem, 2rem;
+}
+footer{
+    padding: 1rem, 2rem;
+}
